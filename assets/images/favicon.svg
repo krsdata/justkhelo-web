@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_5" data-name="Group 5" transform="translate(250.289 -1113.711)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="16" cy="16" r="16" transform="translate(-250.289 1113.711)" fill="#b00"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(-243.46 1119.609)">
+      <g id="Group_4" data-name="Group 4">
+        <text id="J_" data-name="J " transform="translate(0 15.305)" fill="#fff" font-size="16" font-family="Montserrat"><tspan x="0" y="0">J</tspan></text>
+        <g id="Group_2" data-name="Group 2" transform="translate(1.977)">
+          <g id="Group_1" data-name="Group 1">
+            <path id="Path_1" data-name="Path 1" d="M972.055,276.436,961.939,287.43c.012-2.194.024-4.244.035-6.343l2.078.012c0,.692-.008,1.361-.012,2.187l7.942-6.94Z" transform="translate(-955.754 -276.345)" fill="#fff"/>
+            <path id="Path_2" data-name="Path 2" d="M1010.51,486.252l1.273-1.386,5.7,5.937c-.009.057-.019.114-.028.171a13.685,13.685,0,0,0-1.735,0,1.656,1.656,0,0,1-1.514-.749c-1.057-1.166-2.145-2.3-3.219-3.454C1010.83,486.613,1010.68,486.445,1010.51,486.252Z" transform="translate(-1002.053 -475.134)" fill="#fff"/>
+            <path id="Path_3" data-name="Path 3" d="M829.417,528.822l8.221-8.828c-.009,1.555-.016,2.944-.025,4.381l-2.051-.011c-.015-.279-.03-.543-.052-.942L829.5,528.9Z" transform="translate(-829.417 -508.622)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

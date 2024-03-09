@@ -1,0 +1,798 @@
+@media(min-width: 992px) and (max-width: 1198px){
+.navigation_menu>ul>li>a {
+    font-size: 14px;
+    
+}
+}
+@media(min-width: 992px) {
+    .nav_toggle,
+    .nav_close_btn {
+        display: none;
+    }
+    .h_mobile_quotes {
+        display: none;
+    }
+    .show_only_tab_mobile {
+        display: none;
+    }    
+}
+@media(max-width: 1199px) {
+    .banner-content-inn .banner_title {
+        font-size: 30px;
+        line-height: 46px;
+        padding-bottom: 15px;
+    }
+    .banner-content-inn p {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 17px;
+    }
+    .knowmore_btn {
+        line-height: 50px;
+        height: 50px;
+        padding: 0 31px;
+    }
+    .banner_slider .banner-img img {
+        max-height: 300px;
+    }
+    .h_download_btn {
+        line-height: 44px;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .navigation_menu>ul>li>a {
+        padding: 0 15px;
+    }
+    .get_start_items .content_box p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media(max-width: 1600px) {
+    .our_mission_section:after {
+        width: 64%;
+    }
+}
+@media(max-width: 1400px) {
+   .our_mission_section:after {
+        width: 60%;
+    }
+}
+@media(max-width: 991px) {
+    .banner_slider .owl-dots{
+        bottom: 0;
+    }
+    .social_icons_wrap {
+        left: 9px;
+    }
+    .faq_accordion_content ul, .faq_accordion_content ol {
+        padding-left: 30px;
+    }
+    .match_schedule_inn .table .thead-head th, .match_schedule_inn .table td {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+    .footer_wrap .ftr_widget {
+        margin-bottom: 20px;
+    }
+        /*Full width in responsive*/
+     .width71 {
+        width: 100%;
+    }
+    .width62 {
+        width: 100%;
+    }
+    /*header*/
+    .header_container {
+        padding: 15px 0;
+    }
+    .h_download_btn{
+        margin-left: 0;
+    }
+    .main_header .h_login_btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .main_header .row {
+        align-items: center;
+    }
+    .site_logo img {
+        min-width: 120px;
+    }
+    .navigation_menu {
+        background: #222744;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all 500ms cubic-bezier(0.480, 0, 0.535, 1);
+        -webkit-transition: all 500ms cubic-bezier(0.480, -0.050, 0.535, 1.370);
+        -moz-transition: all 500ms cubic-bezier(0.480, -0.050, 0.535, 1.370);
+        -o-transition: all 500ms cubic-bezier(0.480, -0.050, 0.535, 1.370);
+        transition: all 500ms cubic-bezier(0.480, -0.050, 0.535, 1.370);
+        position: fixed;
+        top: 0;
+        width: 300px;
+        left: -300px;
+        z-index: 99;
+        padding: 15px 25px;
+        border-radius: 0;
+        height: 100%;
+        box-shadow: 0 0 12px rgb(0 0 0 / 37%);
+        overflow-y: auto;
+    }
+    .h_right_part {
+        display: block;
+    }
+    .navigation_menu.menu_open {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        left: 0;
+    }
+    .navigation_menu>ul {
+        flex-wrap: wrap;
+    }
+    .navigation_menu>ul>li {
+        padding: 0;
+        width: 100%;
+    }
+    .navigation_menu>ul>li>a {
+        display: block;
+        padding: 7px 0px;
+        border: none;
+    }
+    .navigation_menu>ul>li>a:hover,
+    .navigation_menu>ul>li>a.active,
+    .navigation_menu>ul>li>a:focus {
+        border: none;
+    }
+    .navigation_menu ul li a:before,
+    .navigation_menu ul li a:after {
+        display: none;
+    }
+    .sections_heading .sec_title {
+        font-size: 30px;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner_slider .banner-img img {
+        max-height: 295px;
+    }
+    .banner-content-inn p {
+        font-size: 21px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .banner-content-inn .banner_title {
+        font-size: 24px;
+        line-height: 38px;
+        padding-bottom: 15px;
+    }
+    .knowmore_btn {
+        line-height: 48px;
+        height: 48px;
+        padding: 0 34px;
+        font-size: 15px;
+    }
+    /*banner end*/
+    /*Counter box*/
+    .counter-box {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .why_jk_contentwrap {
+        min-height: 280px;
+        padding: 34px;
+    }
+    /*Counter box end*/
+    /*Get started start*/
+    .get_started_wrap .section_heading_wrap {
+        text-align: center;
+    }
+    .get_started_wrap .sections_heading {
+        margin-left: 0;
+    }
+    .get_started_wrap .sections_sub-heading h4 {
+        text-align: center !important;
+    }
+    /*Get started end*/
+    /*Faq*/
+    .faq_accordion_heading .ac_icon {
+        width: 45px !important;
+        height: 45px !important;
+        line-height: 45px !important;
+        font-size: 17px !important;
+        margin-right: 10px !important;
+    }
+    .faq_accordion_heading {
+        padding: 13px 20px !important;
+    }
+    .faq_accordion_heading .toggle_icon {
+        font-size: 20px;
+    }
+    .faq_accordion_heading.active .toggle_icon i:before {
+        font-size: 20px !important;
+    }
+    .faq_accordion_content {
+        padding: 20px 30px;
+    }
+    .faq_accordion_content .process_boxinr {
+        padding-left: 25px !important;
+    }
+    /*Faq end*/
+    .page_banner_section {
+        min-height: 200px;
+        padding: 40px 0;
+    }
+    .page_banner_caption .page_title {
+        font-size: 40px;
+    }
+    /*section heading css*/
+    .sections_heading .sec_titles {
+        font-size: 24px;
+    }
+    .sec_titles_inn:before {
+        width: 50px;
+        left: -60px;
+    }
+    .sec_titles_inn:after {
+        width: 50px;
+        right: -60px;
+    }
+    .heading_left_95{
+        margin-left: 0;
+    }
+    .sections_sub-heading h4 {
+        font-size: 35px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    .justkhelo_about_wrap .sections_heading {
+        margin-left: 0;
+    }
+    /*section heading css*/
+    .site_button {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 30px;
+        font-size: 15px;
+    }
+   /* how to about css*/
+    .how_to_play_img {
+        text-align: center;
+    }
+    .how_to_play_text {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .how_to_play_text .section_heading_wrap {
+    text-align: center;
+    }
+    .how_to_play_text .sections_sub-heading h4 {
+    text-align: center;
+    }
+    .how_to_hero_caption .download_btn {
+        margin-top: 20px;
+    }
+    /* how to about css*/
+    .match_steps_content {
+        max-width: 100%;
+    }
+    .match_steps_content .step_count {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 30px;
+        border-radius: 0 0 15px 0;
+        margin-bottom: 15px;
+    }
+    .match_steps_content h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .match_steps_content p {
+        color: #5E6282;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .match_steps_content .border_line {
+        height: 6px;
+        width: 180px;
+        margin-top: 0;
+    }
+   /* how to hero section*/
+   .how_to_hero_caption h3 {
+        font-size: 30px;
+    }
+   .how_to_hero_caption h2 {
+        font-size: 45px;
+    }
+   /* how to hero section*/
+   /*About us page start*/
+   .justkhelo_about_imgwrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .justkhelo_about_wrap .section_heading_wrap {
+        text-align: center;
+    }
+    .justkhelo_about_wrap .sections_sub-heading h4 {
+        text-align: center;
+    }
+   .justkhelo_about_img img {
+        margin-bottom: 20px;
+        max-width: 240px;
+    }
+    /*our mission caption*/
+    .our_mission_captions {
+        max-width: 70%;
+    }
+    .our_mission_section:after {
+        width: 80%;
+    }
+    .our_mission_captions .heading_left_95 {
+        margin-left: 95px;
+    }
+    /*our mission caption*/
+    .contact_info_list li {
+        margin-bottom: 18px;
+    }
+    .contact_info_list li .icons {
+        margin-right: 13px;
+    }
+    .contact_info_list li .icons img {
+        height: 45px;
+        width: 45px;
+    }
+    .contact_info_list li .infoss p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}
+@media (max-width: 767px) {
+    .how_to_hero_caption h3 {
+        font-size: 26px;
+    }
+    .how_to_hero_caption h2 {
+        font-size: 36px;
+    }
+    .how_to_play_img img {
+        max-width: 200px;
+    }
+    .contact_img {
+        margin-bottom: 20px;
+    }
+    .contact_img img {
+        max-height: 260px;
+    }
+    .contact_info_list li .icons img {
+        height: 40px;
+        width: 40px;
+    }
+    /*Fixed social icons*/
+    .social_icons_wrap {
+        display: none;
+    }
+    /*Fixed social icons*/
+    /*Download button*/
+    .downloadbutton_wrap{
+        opacity: 1;
+        visibility: visible;
+    }
+    /*Download button*/
+    .our_mission_section {
+        padding: 100px 0 80px 0;
+    }
+    .our_mission_section:after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        background: #181c32c2;
+        width: 100%;
+    }
+    .our_mission_captions .heading_left_95 {
+        margin-left: 0px;
+    }
+    .our_mission_captions {
+        max-width: 100%;
+        text-align: center;
+    }
+    .our_mission_captions .section_heading_wrap, .our_mission_captions .sections_sub-heading h4 {
+        text-align: center;
+    }
+        body {
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .policy_page_contents ul li, .policy_page_contents ol li {
+        line-height: 23px;
+        margin-bottom: 4px;
+    }
+    .faq_accordion_content {
+        padding: 15px 20px;
+    }
+    .faq_accordion_content ul, .faq_accordion_content ol {
+        padding-left: 20px;
+    }
+    .faq_accordion_content ul li, .faq_accordion_content ol li {
+        line-height: 24px;
+    }
+    .footer_calls li {
+        font-size: 14px;
+    }
+.footer-link a, .footer_calls li a {
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer-add p {
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Sections padding*/
+.section-pt {
+    padding-top: 50px;
+}
+/*banner start*/
+.banner_item {
+    min-height: 490px;
+}
+.banner_slider .banner-img {
+    text-align: center;
+    padding-top: 8px;
+}
+.banner_slider .banner-img img {
+    max-height: 206px;
+}
+.banner-content-inn {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+.banner-content-inn .banner_title {
+    line-height: 42px;
+}
+.banner_slider.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+}
+/*heading in all section*/
+.sections_sub-heading h4 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+/*Intro start*/
+.counter-box {
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 15px;
+}
+.counter_wrap {
+    padding: 30px 0;
+    margin-top: 35px;
+}
+/*Intro  end*/
+/*Why jk*/
+.why_jk_contentwrap {
+    min-height: 280px;
+    padding: 34px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.why_jk_contentinn h5 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.bg-plus {
+    display: none;
+}
+/*Why jk end*/
+/*Match schedule start*/
+.match_schedule_inn .table td {
+}
+.match_schedule_inn .table .thead-head th, .match_schedule_inn .table td {
+    font-size: 14px;
+}
+.match_schedule_inn .table .thead-head th:first-child, .match_schedule_inn .table td:first-child{
+    width: auto;
+}
+/*Match schedule end*/
+/*Call to action start*/
+.call_to-inn {
+    padding: 30px;
+    border-radius: 0 0 60px 0;
+}
+.callto_bg {
+    position: absolute;
+    left: 18px;
+    bottom: -46px;
+}
+.callto_bg img {
+    max-width: 100px;
+}
+.call_to_text h2 {
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+}
+.call_to-inn .knowmore_btn {
+    padding: 0 16px;
+    font-size: 16px;
+}
+/*Call to action end*/
+/*Faq*/
+.faq_accordion_heading .ac_icon {
+        width: 40px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+        font-size: 14px !important;
+        margin-right: 6px !important;
+    }
+    .faq_accordion_heading h3 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .faq_accordion_content .p_main_title {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .faq_accordion_heading .toggle_icon {
+        right: 15px;
+        font-size: 15px;
+    }
+    /*faq end*/
+    /*Footer start*/
+    .footer-add a {
+    line-height: 25px;
+}
+.copyright_wrap {
+    padding-bottom: 70px;
+}
+.copyright-text {
+    font-size: 14px;
+    text-align: center;
+}
+.footer_social {
+    text-align: center;
+    float: none;
+}
+.page_banner_section {
+    min-height: 150px;
+}
+    .page_banner_caption .page_title {
+        font-size: 34px;
+    }
+    .match_steps_content .step_count {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 35px;
+    }
+    .match_steps_content h3 {
+        font-size: 25px;
+    }
+    .match_steps_content p {
+        font-size: 13px;
+    }
+    .match_steps_content {
+        padding-bottom: 70px;
+    }
+    .match_steps_row {
+        text-align: center;
+    }
+    .match_steps_row .steps_img img {
+        max-width: 250px;
+    }
+}
+@media(max-width: 575px) {
+/*Heading in all section*/
+.sec_titles_inn:after {
+    display: none;
+}
+.sec_titles_inn:before {
+    display: none;
+}
+.sections_heading .sec_titles {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 20px;
+}
+.sections_sub-heading h4 {
+    font-size: 28px;
+    line-height: 38px;
+    padding-bottom: 22px;
+}
+/*Heading in all section*/
+/*counter-box*/
+.counter-box {
+    font-size: 16px;
+    line-height: 27px;
+}
+/*counter-box*/
+/*Why jk*/
+.why_jk_contentwrap {
+    min-height: 250px;
+    margin-top: 20px;
+    padding: 20px 15px;
+    border-radius: 25px;
+}
+.why_jk_img img {
+    max-width: 75px;
+}
+.why_jk_contentinn h5 {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0 12px;
+}
+.why_jk_contentinn p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.why_jk_bgshape {
+    left: -12px;
+}
+/*Get started*/
+.get_started_wrap {
+    max-height: 930px;
+}
+/*Get started*/
+/*Payment section*/
+.payment_img {
+    padding-top: 30px;
+}
+/*Payment section*/
+/*Match schedule start*/
+.match_schedule_inn .table .thead-head th {
+    font-size: 16px;
+}
+.match_schedule_inn .table td, .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+/*Match schedule end*/
+/*Faq*/
+    .faq_accordion_content .p_title {
+        display: flex !important;
+    }
+    .faq_accordion_heading h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .faq_accordion_content .p_main_title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+/*Faq*/
+/*Call to action*/
+.call_to_text h2 {
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 16px;
+   
+}
+.call_to_text h4 {
+    color: #fff;
+    font-size: 16px;
+}
+/*Call to action end*/
+/*How to hero start*/
+.how_to_hero_caption h3 {
+        font-size: 22px;
+    }
+    .how_to_hero_caption h2 {
+    font-size: 34px;
+}
+/*How to hero end*/
+}
+@media(max-width: 430px) {
+/*Sections heading*/
+.sections_sub-heading h4 {
+    font-size: 25px;
+    line-height: 33px;
+    padding-bottom: 22px;
+}
+/*Banner start*/
+.banner-content-inn {
+    padding: 0 10px;
+}
+.banner-content-inn .banner_title {
+    line-height: 30px;
+    font-size: 20px;
+}
+.banner-content-inn p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+.knowmore_btn {
+    line-height: 38px;
+    padding: 0 29px;
+    font-size: 14px;
+    height: 42px;
+}
+/*Banner end*/
+/*Match schedule*/
+.match_schedule_inn {
+    padding: 50px 0;
+}
+.match_schedule_inn .table .thead-head th {
+    font-size: 14px;
+    padding: 10px 0;
+    padding-left: 15px;
+    padding-right: 2px;
+}
+.match_schedule_inn .table td, .table th {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+/*Call to action*/
+.callto_bg {
+    position: absolute;
+    left: 18px;
+    bottom: -32px;
+}
+.callto_bg img {
+    max-width: 70px;
+}
+.call_to_text h2 {
+    font-size: 17px;
+    line-height: 31px;
+    padding-bottom: 16px;
+}
+.call_to-inn .knowmore_btn {
+    padding: 0px 12px;
+    font-size: 14px;
+}
+}
+@media(max-width: 375px) {
+.counter_wrap .counter_colm {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}
+/*Banner start*/
+.banner-content-inn p {
+    font-size: 18px;
+    line-height: 16px;
+}
+.banner-content-inn .banner_title {
+    padding-bottom: 13px;
+    line-height: 33px;
+    font-size: 19px;
+}
+/*Banner end*/
+/*Match schedule start*/
+.match_schedule_inn .table .thead-head th {
+    font-size: 13px;
+    padding: 10px 0;
+    padding-left: 12px;
+    padding-right: 2px;
+}
+.match_schedule_inn .table .thead-head th {
+    font-size: 13px;
+    padding: 10px 0;
+    padding-left: 12px;
+    padding-right: 2px;
+}
+/*Match schedule end*/
+/*Call to action start*/
+.call_to_text h2 {
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+.callto_bg img {
+    max-width: 60px;
+}
+/*Call to action end*/
+}
